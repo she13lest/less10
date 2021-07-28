@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.header {
+  height: 40px;
+  background-color: yellow;
+  margin-top: 0;
+}
+
+.main {
+}
+
+.sidebar {
+  width: 200px;
+  background-color: grey;
+}
+.dashboard {
+  background-color: pink;
+}
+
+.footer {
+  height: 40px;
+  background-color: green;
+}

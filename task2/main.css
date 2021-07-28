@@ -1,10 +1,11 @@
 div.block {
   background-color: coral;
   margin: 8px;
+}
+
+.block {
   height: 100px;
-  display: flex;
-  flex-direction: column;
-  min-width: 100px;
+  width: 100px;
   flex-grow: 1;
 }
 
