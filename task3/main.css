@@ -22,7 +22,7 @@
 }
 
 .navigation-item {
-  margin-right: 10px;
+  margin-right: 16px;
 }
 
 .content {
@@ -41,6 +41,21 @@
 .news {
   width: 200px;
   background-color: grey;
+}
+
+.main-news {
+  /* margin-top: 16px; */
+  /* margin-bottom: 16px; */
+}
+
+.news-list {
+  margin: 0;
+  list-style-type: none;
+}
+
+.news-item {
+  height: 40px;
+  margin-left: 16px;
 }
 
 .footer {
