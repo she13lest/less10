@@ -2,30 +2,53 @@
   box-sizing: border-box;
 }
 
-.container {
+.page {
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .header {
   height: 40px;
   background-color: yellow;
-  margin-top: 0;
+  display: flex;
+  align-items: center;
 }
 
-.main {
+.navigation {
+  margin: 0;
+  display: flex;
+  list-style-type: none;
 }
 
-.sidebar {
+.navigation-item {
+  margin-right: 10px;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+}
+
+.dashboard {
+  flex-grow: 1;
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.news {
   width: 200px;
   background-color: grey;
-}
-.dashboard {
-  background-color: pink;
 }
 
 .footer {
   height: 40px;
   background-color: green;
+  display: flex;
+}
+
+.footer-text {
+  margin: auto;
 }
