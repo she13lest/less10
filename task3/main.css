@@ -53,12 +53,14 @@
 
 .news-list {
   margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
 .news-item {
   height: 40px;
   margin-left: 16px;
+  display: block;
 }
 
 .footer {
